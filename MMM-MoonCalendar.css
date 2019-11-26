@@ -1,0 +1,93 @@
+
+.MMM-MoonCalendar .container {
+  display: grid;
+  gap: 6px 6px;
+  justify-content: center;
+  margin: auto;
+}
+
+.MMM-MoonCalendar .moonBox {
+  #width: 100px;
+  #height: 100px;
+  border: 2px solid #333;
+}
+
+.MMM-MoonCalendar .wkDayBox {
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.MMM-MoonCalendar .dateHeader {
+  margin: 3px 10px;
+  padding: 0px;
+  line-height: 0.65em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #777;
+  color: #000;
+}
+
+.MMM-MoonCalendar .symbols {
+  text-align: center;
+  height: 40px;
+}
+
+.MMM-MoonCalendar .moon {
+  text-align: center;
+  height: 40px;
+}
+
+.MMM-MoonCalendar .wi {
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  font-family: 'weathericons';
+  src: url('font/weathericons-regular-webfont.ttf');
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MMM-MoonCalendar .fa-apple-alt {
+  color: red;
+}
+
+.MMM-MoonCalendar .fa-leaf {
+  color: green;
+}
+
+.MMM-MoonCalendar .fa-carrot {
+  color: orange;
+}
+
+.MMM-MoonCalendar .wi-moon-waxing-crescent-1:before {
+  content: "\f096";
+}
+.MMM-MoonCalendar .wi-moon-first-quarter:before {
+  content: "\f09c";
+}
+.MMM-MoonCalendar .wi-moon-full:before {
+  content: "\f0a3";
+}
+.MMM-MoonCalendar .wi-moon-third-quarter:before {
+  content: "\f0aa";
+}
+.MMM-MoonCalendar .wi-moon-alt-new:before {
+  content: "\f0eb";
+}
+.MMM-MoonCalendar .wi-moon-alt-waxing-crescent-1:before {
+  content: "\f0d0";
+}
+.MMM-MoonCalendar .wi-moon-alt-first-quarter:before {
+  content: "\f0d6";
+}
+.MMM-MoonCalendar .wi-moon-alt-full:before {
+  content: "\f0dd";
+}
+.MMM-MoonCalendar .wi-moon-alt-third-quarter:before {
+  content: "\f0e4";
+}
